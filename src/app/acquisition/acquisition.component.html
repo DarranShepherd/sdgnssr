@@ -1,0 +1,12 @@
+@for (code of codes; track code) {
+    <mat-card [ngClass]="{detected: code.detected}">
+        <mat-card-header>
+            <mat-card-title>{{ code.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <p>Detected: {{ code.detected ? 'Yes' : 'No' }}</p>
+            <p>Doppler: {{ code.doppler }}</p>
+            <p>Phase: {{ code.phase }}</p>
+        </mat-card-content>
+    </mat-card>
+}

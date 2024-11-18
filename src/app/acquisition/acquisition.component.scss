@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+mat-card {
+    width: 15em;
+    margin: 1em;
+
+    &.detected {
+        background-color: lightgreen;
+    }
+}
