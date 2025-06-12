@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  selector: 'app-acquisition',
-  standalone: true,
-  imports: [ CommonModule, MatCardModule ],
-  templateUrl: './acquisition.component.html',
-  styleUrl: './acquisition.component.scss',
+    selector: 'app-acquisition',
+    imports: [CommonModule, MatCardModule],
+    templateUrl: './acquisition.component.html',
+    styleUrl: './acquisition.component.scss'
 })
 export class AcquisitionComponent {
   public codes = [
