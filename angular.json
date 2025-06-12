@@ -51,7 +51,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/sdgnssr/"
             },
             "development": {
               "optimization": false,
